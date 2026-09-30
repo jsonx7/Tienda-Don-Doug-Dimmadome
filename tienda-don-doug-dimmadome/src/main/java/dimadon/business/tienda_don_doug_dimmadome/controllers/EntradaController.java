@@ -16,7 +16,7 @@ import dimadon.business.tienda_don_doug_dimmadome.services.ServiceEntrada;
 
 @RestController
 @RequestMapping("/entrada")
-@CrossOrigin(origins = "${app.cors.origin:https://tienda-don-doug-dimmadome.vercel.app")
+@CrossOrigin(origins = "${app.cors.origin:https://tienda-don-doug-dimmadome.vercel.app}")
 public class EntradaController {
     
 

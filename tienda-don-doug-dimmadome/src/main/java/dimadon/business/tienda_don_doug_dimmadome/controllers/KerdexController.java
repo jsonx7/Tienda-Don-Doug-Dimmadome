@@ -14,7 +14,7 @@ import dimadon.business.tienda_don_doug_dimmadome.services.ServiceKardex;
 
 @RestController
 @RequestMapping("/kardex")
-@CrossOrigin(origins = "${app.cors.origin:https://tienda-don-doug-dimmadome.vercel.app")
+@CrossOrigin(origins = "${app.cors.origin:https://tienda-don-doug-dimmadome.vercel.app}")
 public class KerdexController {
     
     @Autowired
